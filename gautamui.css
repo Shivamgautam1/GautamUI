@@ -14,6 +14,9 @@ body{
     position: static;
     box-shadow: black 0px 0px 2px;
 }
+.navbar.fixed{
+    position: fixed;
+}
 a.nav-logo{
     color: #ffffff;
     text-decoration: none;
@@ -25,8 +28,9 @@ a.nav-logo{
 .mid-wide{
     position: relative;
     width: 80vw;
-    left: 10vh;
-    margin: 0px;    
+    left: 5vw;
+    margin: 0;
+    padding: 0;    
 }
 h1{
     color: #212121;
@@ -52,8 +56,60 @@ p{
     width: 100%;
     height: auto;
 }
+.col-9{
+    position: relative;
+    width: 90%;
+    float: left;
+}
+.col-8{
+    position: relative;
+    width: 80%;
+    float: left;
+}
+.col-7{
+    position: relative;
+    width: 70%;
+    float: left;
+}
 .col-6{
+    position: relative;
+    width: 60%;
+    float: left;
+}
+.col-5{
     position: relative;
     width: 50%;
     float: left;
+}
+.col-4{
+    position: relative;
+    width: 40%;
+    float: left;
+}
+.col-3{
+    position: relative;
+    width: 30%;
+    float: left;
+}
+.col-2{
+    position: relative;
+    width: 20%;
+    float: left;
+}
+.col-1{
+    position: relative;
+    width: 10%;
+    float: left;
+}
+.col-3-3{
+    position: relative;
+    width: 33.3%;
+    float: left;
+}
+.box{
+    width: 100%;
+    height: 1em;
+    background: #BDBDBD;
+    border: 0.1em solid black;
+    
 }
