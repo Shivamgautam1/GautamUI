@@ -32,7 +32,28 @@ h1{
     color: #212121;
     font-size: 2.5em;
 }
+h2{
+    color: #212121;
+    font-size: 2em;
+}
+h3{
+    color: #212121;
+    font-size: 1.5em;
+}
+h4{
+    color: #212121;
+    font-size: 1em;
+}
 p{
     color: #212121;
     font-size: 0.8em;
+}
+.grid{
+    width: 100%;
+    height: auto;
+}
+.col-6{
+    position: relative;
+    width: 50%;
+    float: left;
 }
